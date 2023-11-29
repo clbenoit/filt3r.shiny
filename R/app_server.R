@@ -141,14 +141,14 @@ app_server <- function(input, output, session) {
     # Your logic when the link is clicked
     showModal(modalDialog(size = "l",
       title = "About this app",
-      HTML("<h3> One tool </h3>
+      HTML("<h3> FiLT3r </h3>
       FiLT3r is a software that detects internal duplications in raw sequencing data. </br>
       FiLT3r uses an alignment-free approach, which is thus resource-frugal.Compared to the state-of-the-art, FiLT3r is faster and uses less memory, while having better results both for detecting the duplications and for quantifying them. </br>
       FiLT3r was tested on capture data and RNA-Seq data for FLT3-ITD quantification. Detailed results can be found in <a href=\"https://doi.org/10.1186/s12859-022-04983-6\">Baudry et al, 2022</a>.</br></br>
       For any questions or problems relating to the tool : <b>mikael.salson@univ-lille.fr</b></br>
 
-      <h3> One app </h3>
-      This tool has been encapsulated in a graphical interface developed within the Molecular Biology platform of the Grenoble-Alpes University Hospital.</br></br>
+      <h3> FiLT3r-Shiny </h3>
+      This tool has been wrapped into a graphical interface developed within the Molecular Biology platform of the Grenoble-Alpes University Hospital.</br></br>
       For any questions or problems relating to the application : <b>benoitclement.sand@gmail.com</b></br>"),
       easyClose = TRUE
     ))
