@@ -144,7 +144,7 @@ app_server <- function(input, output, session) {
       HTML("<h3> FiLT3r </h3>
       FiLT3r is a software that detects internal duplications in raw sequencing data. </br>
       FiLT3r uses an alignment-free approach, which is thus resource-frugal.Compared to the state-of-the-art, FiLT3r is faster and uses less memory, while having better results both for detecting the duplications and for quantifying them. </br>
-      FiLT3r was tested on capture data and RNA-Seq data for FLT3-ITD quantification. Detailed results can be found in <a href=\"https://doi.org/10.1186/s12859-022-04983-6\">Baudry et al, 2022</a>.</br></br>
+      FiLT3r was tested on capture data and RNA-Seq data for FLT3-ITD quantification. Detailed results can be found in <a href=\"https://doi.org/10.1186/s12859-022-04983-6\" target=\"_blank\">Baudry et al, 2022</a>.</br></br>
       For any questions or problems relating to the tool : <b>mikael.salson@univ-lille.fr</b></br>
 
       <h3> FiLT3r-Shiny </h3>

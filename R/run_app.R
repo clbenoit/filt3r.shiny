@@ -10,7 +10,7 @@
 run_app <- function(
   onStart = NULL,
   filt3r_path = NULL,
-  options = list(launch.browser = TRUE),
+  options = list(launch.browser = TRUE, host  = "0.0.0.0"),
   #options = list(launch.browser = FALSE),
   #options = list(...),
   enableBookmarking = NULL,

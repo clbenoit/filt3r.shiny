@@ -38,14 +38,14 @@ app_ui <- function(request) {
                                     column(width = 12, offset = 0,
                                                actionButton("computeITD",
                                                             label = "compute filt3r analysis",
-                                                            width = "90%",
-                                                            style='margin:auto'),#)
+                                                            width = "92%")
+                                                            #style='margin:auto'),#)
                                            ),
-                                    br(),
-                                    column(width = 6, fluidRow(checkboxInput("is_duplication", label = "Filter out no duplication",
+                                    br(),br(),br(),br(),
+                                    column(width = 12, column(width = 6, fluidRow(checkboxInput("is_duplication", label = "Filter out no duplication",
                                                                     value = TRUE, width = "100%"))),
                                     column(width = 6, fluidRow(checkboxInput("is_wt_duplication", label = "Filter out no wt duplication",
-                                                                    value = TRUE, width = "100%")))
+                                                                    value = TRUE, width = "100%"))))
                                    ))),
                   dashboardBody(
                     fluidPage(
